@@ -55,7 +55,6 @@ Express is listening on localhost: 3000.
 ```
 
 請至 [http://localhost:3000](http://localhost:3000) 開始使用！
-或至
 
 ## Developer
 [Run Chen](https://github.com/RunChenn)# Expense-Tracker
