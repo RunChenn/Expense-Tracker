@@ -1,4 +1,4 @@
-const Records = require('../records');
+const Records = require('../record');
 const db = require('../../config/mongoose');
 
 const recordSeedData = [
