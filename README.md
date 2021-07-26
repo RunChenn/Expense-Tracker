@@ -1,5 +1,6 @@
 # Expense-Tracker
 這是一個 Node.js + Express 連結資料庫，打造的簡易支出記帳網站
+![image](https://github.com/RunChenn/Expense-Tracker/blob/main/expense-tracker.png)
 
 ## Features - 產品功能
 - 首頁可以瀏覽所有支出的清單
