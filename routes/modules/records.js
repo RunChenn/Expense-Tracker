@@ -12,7 +12,7 @@ Category.find()
     .catch(error => console.log(error))
 
 router.get('/new', async (req, res) => {
-    return res.render('new', {categories});
+    return res.render('new', { categories });
 });
 
 router.post('/', (req, res) => {

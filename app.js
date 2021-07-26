@@ -16,8 +16,7 @@ app.engine('hbs', exphbs({
 app.set('view engine', 'hbs');
 app.use(express.static('public'));
 
-
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.urlencoded({extended: true}));
 app.use(methodOverride('_method'));
 
 // 將 request 導入路由器

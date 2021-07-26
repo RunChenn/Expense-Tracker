@@ -16,11 +16,11 @@ router.get('/', async (req, res) => {
             .then(category => categories.push(...category))
             .catch(error => console.log(error))
 
-    const filterdata = (!category || category === 'all') ? {} : {'category': category};
+    const filteredCategory = (!category || category === 'all') ? {} : {'category': category};
 
     let totalAmount = 0;
 
-    Record.find(filterdata)
+    Record.find(filteredCategory)
             .lean() 
             .then(records => {
          
