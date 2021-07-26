@@ -11,7 +11,7 @@ Category.find()
     .then(category => categories.push(...category))
     .catch(error => console.log(error))
 
-router.get('/new', async (req, res) => {
+router.get('/new', (req, res) => {
     return res.render('new', { categories });
 });
 
